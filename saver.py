@@ -65,9 +65,9 @@ class Saver():
         if not os.path.exists(self.image_dir):
             os.makedirs(self.image_dir)
         test_pair_img = model.test_pair_outputs()
-        root = self.image_dir + 'test'
-        if not os.path.exists(root):
-            os.makedirs(root)
+        root = self.image_dir
+        # if not os.path.exists(root):
+        #     os.makedirs(root)
         img_filename = '%s/gen_%05d.jpg' % (root, iter)
         torchvision.utils.save_image(test_pair_img / 2 + 0.5, img_filename, nrow=1)
 

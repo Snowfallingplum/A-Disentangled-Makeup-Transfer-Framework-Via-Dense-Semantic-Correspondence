@@ -233,7 +233,8 @@ class MakeupGAN(nn.Module):
             (images_non_makeup[0:1, ::],images_makeup_semantic[0:1, ::], images_z_transfer[0:1, ::],  images_cycle_non_makeup[0:1, ::]), 3)
         row2 = torch.cat(
             (images_makeup[0:1, ::],images_non_makeup_semantic[0:1, ::], images_z_removal[0:1, ::],  images_cycle_makeup[0:1, ::]), 3)
-        return torch.cat((row1, row2), 2)
+        row1=torch.cat((images_non_makeup[0:1, ::],images_makeup[0:1, ::],images_z_transfer[0:1, ::]),3)
+        return row1
 
 
 

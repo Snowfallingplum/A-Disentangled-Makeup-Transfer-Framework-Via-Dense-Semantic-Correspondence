@@ -59,7 +59,7 @@ class MakeupTestOptions():
         # ouptput related
         self.parser.add_argument('--name', type=str, default='makeup', help='folder name to save outputs')
         self.parser.add_argument('--display_dir', type=str, default='./logs/makeup', help='path for saving display results')
-        self.parser.add_argument('--result_dir', type=str, default='./results/makeup',
+        self.parser.add_argument('--result_dir', type=str, default='./results',
                                  help='path for saving result images and models')
         self.parser.add_argument('--checkpoint_dir', type=str, default='./weights',
                                  help='path for saving result images ')
