@@ -7,9 +7,11 @@
 
 ### Our result
 
-![](https://github.com/Snowfallingplum/MakeupTransfer/imgs/img_makeup_transfer.jpg)
+![](./imgs/img_makeup_transfer.jpg)
 
 ### Qualitative comparison
 
-![](https://github.com/Snowfallingplum/MakeupTransfer/imgs/img_qualitative_comparison.jpg)
+![](./imgs/img_qualitative_comparison.jpg)
+
+### Other content is under construction
 
