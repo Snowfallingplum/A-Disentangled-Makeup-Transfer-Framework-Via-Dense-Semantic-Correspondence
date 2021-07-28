@@ -13,5 +13,5 @@
 
 ![](./imgs/img_qualitative_comparison.jpg)
 
-### Other content is under construction
+# Other content is under construction
 
